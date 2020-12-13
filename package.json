@@ -1,0 +1,16 @@
+{
+  "name": "rollyourcharacter",
+  "version": "1.0.0",
+  "description": "Character generator for D&D",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZVestigo",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
