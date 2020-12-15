@@ -7,11 +7,13 @@
     font-size: 1.1em;
     position: absolute;
     background: white;
-    border-radius: 20px;
+    border: black 2px solid;
+    border-radius: 15px;
     margin: 0 15%;
     padding: 0 3px;
-    top: 40%;
+    top: 38%;
     right: 1%;
+    opacity: 0;
 }
 
 footer {
