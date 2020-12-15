@@ -1,24 +1,84 @@
 
-.row-content {
-    margin-bottom: 1.5em;
+body {
+    background: url("../img/interlaced.png");
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+}
+
+.jumbotron {
+    background: url("../img/prism.png");
+}
+
+#options {
+    background: url("../img/prism.png");
+    position: relative;
+    top: 25px;
+}
+
+.details {
+    font-size: .8em;
+    color: #858585;
+}
+
+.start-hidden {
+    opacity: 0;
+    transition: .5s;
+}
+
+#roll-btn {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#d20 {
+    transition: .5;
 }
 
 #char-desc {
     font-size: 1.1em;
-    position: absolute;
-    background: white;
+    background: url("../img/interlaced.png");
     border: black 2px solid;
     border-radius: 15px;
-    margin: 0 15%;
+    margin: 0 17%;
     padding: 0 3px;
-    top: 38%;
+    position: absolute;
+    top: 30%;
     right: 1%;
-    opacity: 0;
 }
 
 footer {
     background-color: #f5f5f5;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
+}
+
+
+/* Custom Responsive Styles */
+
+/* Bootstrap md Size */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.6em;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    #char-desc {
+        font-size: 1.6em;
+    }
+
+}
+
+/* Bootstrap xl Size */
+@media (min-width: 1200px) {
+    
+    #char-desc {
+        font-size: 1.7em;
+    }
+
 }
